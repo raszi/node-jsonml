@@ -33,7 +33,7 @@ var
 
 function _testXHTML(filename, data) {
   return {
-    'read a file first': {
+    'when reading a file first': {
       topic: function() {
         fs.readFile(path.join(__dirname, filename), this.callback);
       },
@@ -46,7 +46,7 @@ function _testXHTML(filename, data) {
         }, Error);
       },
 
-      'then test the parsed data': {
+      'then parsing the data': {
         topic: function(data) {
           return parse(data.toString());
         },
