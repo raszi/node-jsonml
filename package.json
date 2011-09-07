@@ -1,0 +1,43 @@
+{
+  "name":        "jsonml",
+  "version":     "0.0.1",
+  "description": "JsonML library",
+  "author":      "KARASZI István <github@spam.raszi.hu> (http://raszi.hu/)",
+
+  "homepage": "http://github.com/raszi/node-jsonml",
+  "keywords": [ "json", "xml", "jsonml" ],
+
+  "licenses": [
+    {
+      "type": "GPLv2",
+      "url": "http://www.example.com/licenses/gpl.html"
+    }
+  ],
+
+  "repository": {
+    "type": "git", 
+    "url":  "git://github.com/raszi/node-jsonml.git"
+  },
+
+  "bugs": {
+    "web":  "http://github.com/raszi/node-jsonml/issues"
+  },
+
+  "main": "lib/jsonml.js",
+
+  "scripts": {
+    "test": "vows test/*-test.js"
+  },
+
+  "engines": {
+    "node": ">=0.4.10"
+  },
+
+  "dependencies": {
+    "node-expat": "~1.4.0"
+  },
+
+  "devDependencies": {
+    "vows": "~0.5.11"
+  }
+}
