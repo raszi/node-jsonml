@@ -20,7 +20,7 @@
   },
 
   "bugs": {
-    "web":  "http://github.com/raszi/node-jsonml/issues"
+    "url":  "http://github.com/raszi/node-jsonml/issues"
   },
 
   "main": "lib/jsonml.js",
