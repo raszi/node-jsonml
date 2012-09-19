@@ -28,6 +28,10 @@ var
         ["span", { "style" : "background-color:maroon" }, "\u00A9" ],
         "\u00A0"
       ]
+    ],
+    [ "tr",
+      [ "td", { "class" : "MyTD", "style" : "border:1px solid black" }, "#F00BA5" ],
+      [ "td", { "class" : "MyTD", "style" : "background-color:cyan" }, "foo&bar" ]
     ]
   ];
 
