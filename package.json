@@ -34,7 +34,7 @@
   },
 
   "dependencies": {
-    "node-expat": "~1.4.0"
+    "node-expat": "~2.0.0"
   },
 
   "devDependencies": {
