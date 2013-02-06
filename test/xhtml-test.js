@@ -4,7 +4,9 @@ var
   fs     = require('fs'),
   path   = require('path'),
 
-  parse  = require('../lib/jsonml.js').parse;
+  jsonmlLib = require('../lib/jsonml.js'),
+  parse  = jsonmlLib.parse;
+  toXML = jsonmlLib.toXML;
 
 var
   simpleXHTMLData = [ "ul",
@@ -63,7 +65,79 @@ function _testXHTML(filename, data) {
   };
 }
 
+//for comparison while testing: removes extra space, comments, etc.
+function _normalizeXML(xml){
+  var normal;
+  normal = xml.toString();
+  normal = normal
+            .replace(/<![^>]*>\s*/g, '')  // comments, doctypes
+            .replace(/<\?[^>]*>\s*/g, '') // <? ... >
+            .replace(/>\s+/g, '>')        // space after tag
+            .replace(/\s+</g, '<')        // space before tag
+            .replace(/[\r\n\t]+/g, '');   // linebreaks, tabs
+  return normal;
+}
+
+function _testToXML(jsonml, xmlFile) {
+  return {
+    'when testing toXML': {
+      'the xml from the file': {
+        topic: function(){
+          fs.readFile(path.join(__dirname, xmlFile), this.callback);
+        },
+        
+        'should read in without error': assert.isNull,
+          
+        'should match xml generated from jsonml': function(err, xml){
+          assert.equal(_normalizeXML(toXML(jsonml)),
+                       _normalizeXML(xml));
+        }
+      }
+    }
+  };
+}
+
+function _testInverseJSONML(jsonml){
+  return {
+    'when converting jsonml to xml and back': {
+      'parse(toXML(input))': {
+        topic: parse(toXML(jsonml)),
+        
+        'should equal the input': function(parsed){
+          assert.deepEqual(parsed, jsonml);
+        }
+      }
+    }
+  };
+}
+
+function _testInverseXML(xmlFile){
+  return {
+    'when converting xml to jsonml and back': {
+      'the xml from the file': {
+        topic: function(){
+          fs.readFile(path.join(__dirname, xmlFile), this.callback);
+        },
+        
+        'should read in without error': assert.isNull,
+        
+        'should (when normalized) match toXML(parse(input))': function(xml){
+          assert.equal(_normalizeXML(xml.toString()),
+                       _normalizeXML(toXML(parse(xml.toString()))));
+        }
+      }
+    }
+  };
+}
+
 vows.describe('Simple test')
   .addBatch(_testXHTML('simple-snippet.xhtml', simpleXHTMLData))
   .addBatch(_testXHTML('complicated-snippet.xhtml', complicatedXHTMLData))
+  .addBatch(_testToXML(simpleXHTMLData, 'simple-snippet.xhtml'))
+  .addBatch(_testToXML(complicatedXHTMLData, 'complicated-snippet.xhtml'))
+  .addBatch(_testInverseJSONML(simpleXHTMLData))
+  .addBatch(_testInverseJSONML(complicatedXHTMLData))
+  .addBatch(_testInverseXML('simple-snippet.xhtml'))
+  .addBatch(_testInverseXML('complicated-snippet.xhtml'))
+  .addBatch(_testInverseXML('large-file.xml'))
   .export(module);
