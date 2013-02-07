@@ -1,0 +1,788 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="billres.xsl"?>
+<!DOCTYPE bill PUBLIC "-//US Congress//DTDs/bill v2.8 20020720//EN" "bill.dtd">
+<bill bill-stage="Introduced-in-House" bill-type="olc" dms-id="HCA02F51978EC46CF927F7CA033CD63A5" public-private="public">
+	<form>
+		<distribution-code display="yes">I</distribution-code>
+		<congress>113th CONGRESS</congress>
+		<session>1st Session</session>
+		<legis-num>H. R. 100</legis-num>
+		<current-chamber>IN THE HOUSE OF REPRESENTATIVES</current-chamber>
+		<action>
+			<action-date date="20130103">January 3, 2013</action-date>
+			<action-desc><sponsor name-id="C000714">Mr. Conyers</sponsor> (for
+			 himself, <cosponsor name-id="C001068">Mr. Cohen</cosponsor>,
+			 <cosponsor name-id="D000610">Mr. Deutch</cosponsor>,
+			 <cosponsor name-id="N000002">Mr. Nadler</cosponsor>,
+			 <cosponsor name-id="J000288">Mr. Johnson of Georgia</cosponsor>,
+			 <cosponsor name-id="W000207">Mr. Watt</cosponsor>, <cosponsor name-id="M000725">Mr. George Miller of California</cosponsor>, and
+			 <cosponsor name-id="J000032">Ms. Jackson Lee</cosponsor>) introduced the
+			 following bill; which was referred to the <committee-name committee-id="HJU00">Committee on the Judiciary</committee-name></action-desc>
+		</action>
+		<legis-type>A BILL</legis-type>
+		<official-title>To amend title 11, United States Code, to improve
+		  protections for employees and retirees in business
+		  bankruptcies.</official-title>
+	</form>
+	<legis-body id="H35CDB485BB3A4DE6AF4A8039AF01EFCE" style="OLC">
+		<section id="H139BE3D686E94C269323ACC2815F467B" section-type="section-one"><enum>1.</enum><header>Short title; table of
+			 contents</header>
+			<subsection id="HA77C9F1A5EB744509C005B27EA1B6F43"><enum>(a)</enum><header>Short
+			 title</header><text display-inline="yes-display-inline">This Act may be cited
+			 as the <quote><short-title>Protecting Employees and
+			 Retirees in Business Bankruptcies Act of 2013</short-title></quote>.</text>
+			</subsection><subsection id="H6E435269E8F64F58855EC4B5CE2606DC"><enum>(b)</enum><header>Table of
+			 contents</header><text display-inline="yes-display-inline">The table of
+			 contents of this Act is as follows:</text>
+				<toc container-level="legis-body-container" lowest-bolded-level="division-lowest-bolded" lowest-level="section" quoted-block="no-quoted-block" regeneration="yes-regeneration">
+					<toc-entry idref="H139BE3D686E94C269323ACC2815F467B" level="section">Sec. 1. Short title; table of contents.</toc-entry>
+					<toc-entry idref="H3259E24E6DE842CAADD11DE066BE6ECE" level="section">Sec. 2. Findings.</toc-entry>
+					<toc-entry idref="HD242F392003149E38E764D536BC67A80" level="title">Title I—Improving Recoveries for Employees and Retirees
+				</toc-entry>
+					<toc-entry idref="H3D3EE18AAA124A1189257116FD23DA11" level="section">Sec. 101. Increased wage priority.</toc-entry>
+					<toc-entry idref="H3D04F93A96D244CFBF8E91C0BB355C7B" level="section">Sec. 102. Claim for stock value losses in defined contribution
+				plans.</toc-entry>
+					<toc-entry idref="H0344E8EE7F88464795390B5DD85FD84D" level="section">Sec. 103. Priority for severance pay.</toc-entry>
+					<toc-entry idref="H09B157C1BFE246E386EDD30D9556F948" level="section">Sec. 104. Financial returns for employees and
+				retirees.</toc-entry>
+					<toc-entry idref="H074D2A3A5061401D8BC4B47EBBF46558" level="section">Sec. 105. Priority for WARN Act damages.</toc-entry>
+					<toc-entry idref="H47A35F0E00ED4FC380CD577B80FF9E29" level="title">Title II—Reducing Employees’ and Retirees’ Losses</toc-entry>
+					<toc-entry idref="H21C353DD30644C088AF6E73DC6ACA003" level="section">Sec. 201. Rejection of collective bargaining
+				agreements.</toc-entry>
+					<toc-entry idref="H5D9396CA363D4C4CBF31CE2C03F31CBB" level="section">Sec. 202. Payment of insurance benefits to retired
+				employees.</toc-entry>
+					<toc-entry idref="H4B2049F49F894EE3B58A85AFCFFAF339" level="section">Sec. 203. Protection of employee benefits in a sale of
+				assets.</toc-entry>
+					<toc-entry idref="H31BF051FB30C435F978023FA38840FE6" level="section">Sec. 204. Claim for pension losses.</toc-entry>
+					<toc-entry idref="H6408C93BD900445E9978CD8F016BDB59" level="section">Sec. 205. Payments by secured lender.</toc-entry>
+					<toc-entry idref="H79743A81EC974BC4AB07FB1A73A741D2" level="section">Sec. 206. Preservation of jobs and benefits.</toc-entry>
+					<toc-entry idref="HE34CD560BBCB474F8BB2EF919E7CC2D3" level="section">Sec. 207. Termination of exclusivity.</toc-entry>
+					<toc-entry idref="H0A056D7441E64BDFA241333B9C8421D9" level="title">Title III—Restricting Executive Compensation Programs</toc-entry>
+					<toc-entry idref="HA870A531BAA04F00B70CE0450D352BC7" level="section">Sec. 301. Executive compensation upon exit from
+				bankruptcy.</toc-entry>
+					<toc-entry idref="H1A0144A69F914A6780A222DE7887A71F" level="section">Sec. 302. Limitations on executive compensation
+				enhancements.</toc-entry>
+					<toc-entry idref="HF2B2D7E469EC42968ED0A3AB983E5445" level="section">Sec. 303. Assumption of executive benefit plans.</toc-entry>
+					<toc-entry idref="H1AA8E38A586A450897C615893F11CF4A" level="section">Sec. 304. Recovery of executive compensation.</toc-entry>
+					<toc-entry idref="HF05EE9D1CFAE4BFCBB2794BCA5666BB1" level="section">Sec. 305. Preferential compensation transfer.</toc-entry>
+					<toc-entry idref="HDEB6EF4CCE8F4290A842E7D31C673598" level="title">Title IV—Other Provisions</toc-entry>
+					<toc-entry idref="H41C448AA1DA846AE998FC3049C1418A7" level="section">Sec. 401. Union proof of claim.</toc-entry>
+					<toc-entry idref="HD48F06E3CF664B41985E5199FA975728" level="section">Sec. 402. Exception from automatic stay.</toc-entry>
+				</toc>
+			</subsection></section><section id="H3259E24E6DE842CAADD11DE066BE6ECE" section-type="subsequent-section"><enum>2.</enum><header>Findings</header><text display-inline="no-display-inline">The Congress finds the following:</text>
+			<paragraph id="HCC28C740E885432C80AEA195966BA2F9"><enum>(1)</enum><text>Business
+			 bankruptcies have increased sharply in recent years and remain at high levels.
+			 These bankruptcies include several of the largest business bankruptcy filings
+			 in history. As the use of bankruptcy has expanded, job preservation and
+			 retirement security are placed at greater risk.</text>
+			</paragraph><paragraph id="HC69ABD7438D345948AF41A59BD956726"><enum>(2)</enum><text>Laws enacted to
+			 improve recoveries for employees and retirees and limit their losses in
+			 bankruptcy cases have not kept pace with the increasing and broader use of
+			 bankruptcy by businesses in all sectors of the economy. However, while
+			 protections for employees and retirees in bankruptcy cases have eroded,
+			 management compensation plans devised for those in charge of troubled
+			 businesses have become more prevalent and are escaping adequate
+			 scrutiny.</text>
+			</paragraph><paragraph id="HCCA4F392F8AA4607A4F7B73BD2F5EAD2"><enum>(3)</enum><text>Changes in the law
+			 regarding these matters are urgently needed as bankruptcy is used to address
+			 increasingly more complex and diverse conditions affecting troubled businesses
+			 and industries.</text>
+			</paragraph></section><title id="HD242F392003149E38E764D536BC67A80"><enum>I</enum><header>Improving
+			 Recoveries for Employees and Retirees </header>
+			<section id="H3D3EE18AAA124A1189257116FD23DA11"><enum>101.</enum><header>Increased wage
+			 priority</header><text display-inline="no-display-inline">Section 507(a) of
+			 title 11, United States Code, is amended—</text>
+				<paragraph id="HF85889A209FD49F9B1227543AD5089B0"><enum>(1)</enum><text display-inline="yes-display-inline">in paragraph (4)—</text>
+					<subparagraph id="HB5FD0D219CE842549115CA6819DB71B5"><enum>(A)</enum><text>by striking
+			 <quote>$10,000</quote> and inserting <quote>$20,000</quote>;</text>
+					</subparagraph><subparagraph id="H509E7EEC952E486FA3C176B6683B66EC"><enum>(B)</enum><text>by striking
+			 <quote>within 180 days</quote>; and</text>
+					</subparagraph><subparagraph id="H5DDB6BA1C1124ADE8AA0091ECA198BC5"><enum>(C)</enum><text>by striking
+			 <quote>or the date of the cessation of the debtor’s business, whichever occurs
+			 first,</quote>;</text>
+					</subparagraph></paragraph><paragraph id="H08F093E91C944EC6B7E3B4B044D24774"><enum>(2)</enum><text>in paragraph
+			 (5)(A), by striking—</text>
+					<subparagraph id="HEE255854B06D4E6598986B59B4F03480"><enum>(A)</enum><text><quote>within 180
+			 days</quote>; and</text>
+					</subparagraph><subparagraph id="HD2BE41618CE64EEA9076C55BA5CFAD59"><enum>(B)</enum><text><quote>or the date
+			 of the cessation of the debtor’s business, whichever occurs first</quote>;
+			 and</text>
+					</subparagraph></paragraph><paragraph id="H95841591E94044B0AE81DE366A256A3C"><enum>(3)</enum><text>in paragraph (5),
+			 by striking subparagraph (B) and inserting the following:</text>
+					<quoted-block id="HAC703AF61809463785CED80D1371CF4D" style="OLC">
+						<subparagraph id="H19E9F1FDF73B41F2811F6B776BBC3AA2"><enum>(B)</enum><text>for each such
+				plan, to the extent of the number of employees covered by each such plan,
+				multiplied by
+				$20,000.</text>
+						</subparagraph><after-quoted-block>.</after-quoted-block></quoted-block>
+				</paragraph></section><section id="H3D04F93A96D244CFBF8E91C0BB355C7B"><enum>102.</enum><header>Claim for stock
+			 value losses in defined contribution plans</header><text display-inline="no-display-inline">Section 101(5) of title 11, United States
+			 Code, is amended—</text>
+				<paragraph id="HBABC08DEDAF1480988A155533027A0D8"><enum>(1)</enum><text>in subparagraph
+			 (A), by striking <quote>or</quote> at the end;</text>
+				</paragraph><paragraph id="H8A4927ADC023449DA099FA6192F1394C"><enum>(2)</enum><text>in subparagraph
+			 (B), by inserting <quote>or</quote> after the semicolon; and</text>
+				</paragraph><paragraph id="HABA7F80F5D6F464293DF3BF04D5B74AA"><enum>(3)</enum><text>by adding at the
+			 end the following:</text>
+					<quoted-block display-inline="no-display-inline" id="H9A6A1BF6D38C4BABB8953197ADFC5F77" style="OLC">
+						<subparagraph id="HE66ED0BB81814A4499EB7433E65BF5A2"><enum>(C)</enum><text display-inline="yes-display-inline">right or interest in equity securities of
+				the debtor, or an affiliate of the debtor, held in a defined contribution plan
+				(within the meaning of section 3(34) of the Employee Retirement Income Security
+				Act of 1974 (29 U.S.C. 1002(34))) for the benefit of an individual who is not
+				an insider, a senior executive officer, or any of the 20 next most highly
+				compensated employees of the debtor (if one or more are not insiders), if such
+				securities were attributable to either employer contributions by the debtor or
+				an affiliate of the debtor, or elective deferrals (within the meaning of
+				section 402(g) of the Internal Revenue Code of 1986), and any earnings thereon,
+				if an employer or plan sponsor who has commenced a case under this title has
+				committed fraud with respect to such plan or has otherwise breached a duty to
+				the participant that has proximately caused the loss of
+				value.</text>
+						</subparagraph><after-quoted-block>.</after-quoted-block></quoted-block>
+				</paragraph></section><section id="H0344E8EE7F88464795390B5DD85FD84D"><enum>103.</enum><header>Priority for
+			 severance pay</header><text display-inline="no-display-inline">Section 503(b)
+			 of title 11, United States Code, is amended—</text>
+				<paragraph id="H0031BB7E4AA14B13B2655713D3B9256A"><enum>(1)</enum><text>in paragraph (8),
+			 by striking <quote>and</quote> at the end;</text>
+				</paragraph><paragraph id="H5FBD8A29CFA040A7BB36520C6E34389F"><enum>(2)</enum><text>in paragraph (9),
+			 by striking the period and inserting <quote>; and</quote>; and</text>
+				</paragraph><paragraph id="HE2D8F7785FB449C2AF7ACCFCAF646D52"><enum>(3)</enum><text>by adding at the
+			 end the following:</text>
+					<quoted-block display-inline="no-display-inline" id="HF97C222FF6134297960897A2B1F6833D" style="OLC">
+						<paragraph id="H81C24571CEE642E7881D0FA997CE7353"><enum>(10)</enum><text display-inline="yes-display-inline">severance pay owed to employees of the
+				debtor (other than to an insider, other senior management, or a consultant
+				retained to provide services to the debtor), under a plan, program, or policy
+				generally applicable to employees of the debtor (but not under an individual
+				contract of employment), or owed pursuant to a collective bargaining agreement,
+				for layoff or termination on or after the date of the filing of the petition,
+				which pay shall be deemed earned in full upon such layoff or termination of
+				employment.</text>
+						</paragraph><after-quoted-block>.</after-quoted-block></quoted-block>
+				</paragraph></section><section id="H09B157C1BFE246E386EDD30D9556F948"><enum>104.</enum><header>Financial
+			 returns for employees and retirees</header><text display-inline="no-display-inline">Section 1129(a) of title 11, United States
+			 Code is amended—</text>
+				<paragraph id="H6991A78D0B3D4D848870A851ACBD55F8"><enum>(1)</enum><text>by adding at the
+			 end the following:</text>
+					<quoted-block id="HAF9836DB1B354C6FAE50234F2C198BB7" style="OLC">
+						<paragraph id="H29C7BB8542D04CDFB28F4996C0AA2EFC"><enum>(17)</enum><text>The plan provides
+				for recovery of damages payable for the rejection of a collective bargaining
+				agreement, or for other financial returns as negotiated by the debtor and the
+				authorized representative under section 1113 (to the extent that such returns
+				are paid under, rather than outside of, a
+				plan).</text>
+						</paragraph><after-quoted-block>;
+				and</after-quoted-block></quoted-block>
+				</paragraph><paragraph id="HB932687927F24D28AE67DFC44C81140C"><enum>(2)</enum><text>by striking
+			 paragraph (13) and inserting the following:</text>
+					<quoted-block display-inline="no-display-inline" id="HD917065D4EB249ABB71531FB078CB8FD" style="OLC">
+						<paragraph id="H85549E2965C64922819F2F1DCCBE5FB1"><enum>(13)</enum><text display-inline="yes-display-inline">With respect to retiree benefits, as that
+				term is defined in section 1114(a), the plan—</text>
+							<subparagraph id="HDA28EF0DBE004147AD27F74EA750B3C7"><enum>(A)</enum><text>provides for the
+				continuation after its effective date of payment of all retiree benefits at the
+				level established pursuant to subsection (e)(1)(B) or (g) of section 1114 at
+				any time before the date of confirmation of the plan, for the duration of the
+				period for which the debtor has obligated itself to provide such benefits, or
+				if no modifications are made before confirmation of the plan, the continuation
+				of all such retiree benefits maintained or established in whole or in part by
+				the debtor before the date of the filing of the petition; and</text>
+							</subparagraph><subparagraph id="H9ADE686CA6CA468EA7FB6D1AA890C431"><enum>(B)</enum><text>provides for
+				recovery of claims arising from the modification of retiree benefits or for
+				other financial returns, as negotiated by the debtor and the authorized
+				representative (to the extent that such returns are paid under, rather than
+				outside of, a
+				plan).</text>
+							</subparagraph></paragraph><after-quoted-block>.</after-quoted-block></quoted-block>
+				</paragraph></section><section id="H074D2A3A5061401D8BC4B47EBBF46558"><enum>105.</enum><header>Priority for
+			 WARN Act damages</header><text display-inline="no-display-inline">Section
+			 503(b)(1)(A)(ii) of title 11, United States Code is amended to read as
+			 follows:</text>
+				<quoted-block display-inline="no-display-inline" id="H334E6D861097451BB6FBF5AF55A34624" style="OLC">
+					<clause id="HFF4E03E196E44366814DED74598E99B1"><enum>(ii)</enum><text>wages and
+				benefits awarded pursuant to a judicial proceeding or a proceeding of the
+				National Labor Relations Board as back pay or damages attributable to any
+				period of time occurring after the date of commencement of the case under this
+				title, as a result of a violation of Federal or State law by the debtor,
+				without regard to the time of the occurrence of unlawful conduct on which the
+				award is based or to whether any services were rendered on or after the
+				commencement of the case, including an award by a court under section 2901 of
+				title 29, United States Code, of up to 60 days’ pay and benefits following a
+				layoff that occurred or commenced at a time when such award period includes a
+				period on or after the commencement of the case, if the court determines that
+				payment of wages and benefits by reason of the operation of this clause will
+				not substantially increase the probability of layoff or termination of current
+				employees or of nonpayment of domestic support obligations during the case
+				under this
+				title.</text>
+					</clause><after-quoted-block>.</after-quoted-block></quoted-block>
+			</section></title><title id="H47A35F0E00ED4FC380CD577B80FF9E29"><enum>II</enum><header>Reducing
+			 Employees’ and Retirees’ Losses</header>
+			<section id="H21C353DD30644C088AF6E73DC6ACA003"><enum>201.</enum><header>Rejection of
+			 collective bargaining agreements</header><text display-inline="no-display-inline">Section 1113 of title 11, United States
+			 Code, is amended by striking subsections (a) through (f) and inserting the
+			 following:</text>
+				<quoted-block display-inline="no-display-inline" id="HA370686D2E4B43FAA1F1AA62D7B52B2F" style="OLC">
+					<subsection id="H1D63FAFC7C8D4AF2BFC370E59A5C4BFF"><enum>(a)</enum><text>The debtor in
+				possession, or the trustee if one has been appointed under this chapter, other
+				than a trustee in a case covered by subchapter IV of this chapter and by title
+				I of the Railway Labor Act, may reject a collective bargaining agreement only
+				in accordance with this section. Hereinafter in this section, a reference to
+				the trustee includes a reference to the debtor in possession.</text>
+					</subsection><subsection id="H414026F96B004485BD8160C1F642D720"><enum>(b)</enum><text>No provision of
+				this title shall be construed to permit the trustee to unilaterally terminate
+				or alter any provision of a collective bargaining agreement before complying
+				with this section. The trustee shall timely pay all monetary obligations
+				arising under the terms of the collective bargaining agreement. Any such
+				payment required to be made before a plan confirmed under section 1129 is
+				effective has the status of an allowed administrative expense under section
+				503.</text>
+					</subsection><subsection id="H401D8D3B5BCD43C8AF2FC364217B47F0"><enum>(c)</enum><paragraph commented="no" display-inline="yes-display-inline" id="H0CC8886FAFAC45A79FA3428C2E0D947E"><enum>(1)</enum><text>If the trustee seeks
+				modification of a collective bargaining agreement, then the trustee shall
+				provide notice to the labor organization representing the employees covered by
+				the agreement that modifications are being proposed under this section, and
+				shall promptly provide an initial proposal for modifications to the agreement.
+				Thereafter, the trustee shall confer in good faith with the labor organization,
+				at reasonable times and for a reasonable period in light of the complexity of
+				the case, in attempting to reach mutually acceptable modifications of such
+				agreement.</text>
+						</paragraph><paragraph id="H90EC4BB4C3F84E85AD23560F627B8DAA" indent="up1"><enum>(2)</enum><text display-inline="yes-display-inline">The initial proposal and subsequent
+				proposals by the trustee for modification of a collective bargaining agreement
+				shall be based upon a business plan for the reorganization of the debtor, and
+				shall reflect the most complete and reliable information available. The trustee
+				shall provide to the labor organization all information that is relevant for
+				negotiations. The court may enter a protective order to prevent the disclosure
+				of information if disclosure could compromise the debtor’s position with
+				respect to its competitors in the industry, subject to the needs of the labor
+				organization to evaluate the trustee’s proposals and any application for
+				rejection of the agreement or for interim relief pursuant to this
+				section.</text>
+						</paragraph><paragraph id="H9FC1320D1CBE4D7785FC9DD6A2FC45B4" indent="up1"><enum>(3)</enum><text>In consideration of Federal policy
+				encouraging the practice and process of collective bargaining and in
+				recognition of the bargained-for expectations of the employees covered by the
+				agreement, modifications proposed by the trustee—</text>
+							<subparagraph id="H8247696119CF4BFA9671376DBF46858A"><enum>(A)</enum><text>shall be proposed only as part of a
+				program of workforce and nonworkforce cost savings devised for the
+				reorganization of the debtor, including savings in management personnel
+				costs;</text>
+							</subparagraph><subparagraph id="H9EA1848F949F44AA832D54CA22AF8838"><enum>(B)</enum><text>shall be limited to modifications
+				designed to achieve a specified aggregate financial contribution for the
+				employees covered by the agreement (taking into consideration any labor cost
+				savings negotiated within the 12-month period before the filing of the
+				petition), and shall be not more than the minimum savings essential to permit
+				the debtor to exit bankruptcy, such that confirmation of a plan of
+				reorganization is not likely to be followed by the liquidation, or the need for
+				further financial reorganization, of the debtor (or any successor to the
+				debtor) in the short-term; and</text>
+							</subparagraph><subparagraph id="H29E61BF4E8A14FDD81043590033E1187"><enum>(C)</enum><text>shall not be disproportionate or
+				overly burden the employees covered by the agreement, either in the amount of
+				the cost savings sought from such employees or the nature of the
+				modifications.</text>
+							</subparagraph></paragraph></subsection><subsection id="H7F1093CA056B455F98BD29CEE28683F7"><enum>(d)</enum><paragraph commented="no" display-inline="yes-display-inline" id="HE97F473A145E471EAB057AAE9808DE29"><enum>(1)</enum><text>If, after a period of
+				negotiations, the trustee and the labor organization have not reached an
+				agreement over mutually satisfactory modifications, and further negotiations
+				are not likely to produce mutually satisfactory modifications, the trustee may
+				file a motion seeking rejection of the collective bargaining agreement after
+				notice and a hearing. Absent agreement of the parties, no such hearing shall be
+				held before the expiration of the 21-day period beginning on the date on which
+				notice of the hearing is provided to the labor organization representing the
+				employees covered by the agreement. Only the debtor and the labor organization
+				may appear and be heard at such hearing. An application for rejection shall
+				seek rejection effective upon the entry of an order granting the relief.</text>
+						</paragraph><paragraph id="H42F19A0DDA594C96B9B267CAD1951CB7" indent="up1"><enum>(2)</enum><text>In consideration of Federal policy
+				encouraging the practice and process of collective bargaining and in
+				recognition of the bargained-for expectations of the employees covered by the
+				agreement, the court may grant a motion seeking rejection of a collective
+				bargaining agreement only if, based on clear and convincing evidence—</text>
+							<subparagraph id="HD0360ED444B34D60AE187DDF9EE8B049"><enum>(A)</enum><text>the court finds that the trustee has
+				complied with the requirements of subsection (c);</text>
+							</subparagraph><subparagraph id="H2CCC218705704C82A55D6A62B7261606"><enum>(B)</enum><text>the court has considered alternative
+				proposals by the labor organization and has concluded that such proposals do
+				not meet the requirements of paragraph (3)(B) of subsection (c);</text>
+							</subparagraph><subparagraph id="H885D007BFF29414AB0C5A1D31679E0CA"><enum>(C)</enum><text>the court finds that further
+				negotiations regarding the trustee’s proposal or an alternative proposal by the
+				labor organization are not likely to produce an agreement;</text>
+							</subparagraph><subparagraph id="HD43AF1BC55A0488F9B650E1A1D43747C"><enum>(D)</enum><text>the court finds that implementation of
+				the trustee’s proposal shall not—</text>
+								<clause id="HD5462B7EEBE64147BF34EA633194ECD6"><enum>(i)</enum><text>cause a material diminution in the
+				purchasing power of the employees covered by the agreement;</text>
+								</clause><clause id="H21C7E259D13A4A61878C939CC4399D5E"><enum>(ii)</enum><text>adversely affect the ability of
+				the debtor to retain an experienced and qualified workforce; or</text>
+								</clause><clause id="HC78884DCF66B4A6FA08C763BB2A7A5C4"><enum>(iii)</enum><text>impair the debtor’s labor
+				relations such that the ability to achieve a feasible reorganization would be
+				compromised; and</text>
+								</clause></subparagraph><subparagraph id="H90100A362B4544BAA2A349FED85571C3"><enum>(E)</enum><text display-inline="yes-display-inline">the court concludes that rejection of the
+				agreement and immediate implementation of the trustee’s proposal is essential
+				to permit the debtor to exit bankruptcy, such that confirmation of a plan of
+				reorganization is not likely to be followed by liquidation, or the need for
+				further financial reorganization, of the debtor (or any successor to the
+				debtor) in the short term.</text>
+							</subparagraph></paragraph><paragraph id="H422150D4F551448580200C1814832504" indent="up1"><enum>(3)</enum><text>If the trustee has implemented a
+				program of incentive pay, bonuses, or other financial returns for insiders,
+				senior executive officers, or the 20 next most highly compensated employees or
+				consultants providing services to the debtor during the bankruptcy, or such a
+				program was implemented within 180 days before the date of the filing of the
+				petition, the court shall presume that the trustee has failed to satisfy the
+				requirements of subsection (c)(3)(C).</text>
+						</paragraph><paragraph id="H878B8EE3A7CA43AA9A004D2EDBBC5F27" indent="up1"><enum>(4)</enum><text>In no case shall the court enter an
+				order rejecting a collective bargaining agreement that would result in
+				modifications to a level lower than the level proposed by the trustee in the
+				proposal found by the court to have complied with the requirements of this
+				section.</text>
+						</paragraph><paragraph id="H83213A89299042849D6883FC18CFB705" indent="up1"><enum>(5)</enum><text>At any time after the date on which
+				an order rejecting a collective bargaining agreement is entered, or in the case
+				of an agreement entered into between the trustee and the labor organization
+				providing mutually satisfactory modifications, at any time after such agreement
+				has been entered into, the labor organization may apply to the court for an
+				order seeking an increase in the level of wages or benefits, or relief from
+				working conditions, based upon changed circumstances. The court shall grant the
+				request only if the increase or other relief is not inconsistent with the
+				standard set forth in paragraph (2)(E).</text>
+						</paragraph></subsection><subsection id="HDA32D7357AB24766961BACE068FCE069"><enum>(e)</enum><text>During a period in
+				which a collective bargaining agreement at issue under this section continues
+				in effect, and if essential to the continuation of the debtor’s business or in
+				order to avoid irreparable damage to the estate, the court, after notice and a
+				hearing, may authorize the trustee to implement interim changes in the terms,
+				conditions, wages, benefits, or work rules provided by the collective
+				bargaining agreement. Any hearing under this subsection shall be scheduled in
+				accordance with the needs of the trustee. The implementation of such interim
+				changes shall not render the application for rejection moot.</text>
+					</subsection><subsection id="H267511F7405B4760A4E2B3D8B3DD7475"><enum>(f)</enum><text>Rejection of a
+				collective bargaining agreement constitutes a breach of the agreement, and
+				shall be effective no earlier than the entry of an order granting such relief.
+				Notwithstanding the foregoing, solely for purposes of determining and allowing
+				a claim arising from the rejection of a collective bargaining agreement,
+				rejection shall be treated as rejection of an executory contract under section
+				365(g) and shall be allowed or disallowed in accordance with section 502(g)(1).
+				No claim for rejection damages shall be limited by section 502(b)(7). Economic
+				self-help by a labor organization shall be permitted upon a court order
+				granting a motion to reject a collective bargaining agreement under subsection
+				(d) or pursuant to subsection (e), and no provision of this title or of any
+				other provision of Federal or State law may be construed to the
+				contrary.</text>
+					</subsection><subsection id="H2F526A0156494DD783F82E539D3D0DDD"><enum>(g)</enum><text>The trustee shall
+				provide for the reasonable fees and costs incurred by a labor organization
+				under this section, upon request and after notice and a hearing.</text>
+					</subsection><subsection id="HB5BBFB73693F4B4D80394A1EDEA81113"><enum>(h)</enum><text>A collective
+				bargaining agreement that is assumed shall be assumed in accordance with
+				section
+				365.</text>
+					</subsection><after-quoted-block>.</after-quoted-block></quoted-block>
+			</section><section id="H5D9396CA363D4C4CBF31CE2C03F31CBB"><enum>202.</enum><header>Payment of
+			 insurance benefits to retired employees</header><text display-inline="no-display-inline">Section 1114 of title 11, United States
+			 Code, is amended—</text>
+				<paragraph id="H1B40134440B94DB9891776777B5B3593"><enum>(1)</enum><text>in subsection (a),
+			 by inserting <quote>, whether or not the debtor asserts a right to unilaterally
+			 modify such payments under such plan, fund, or program</quote> before the
+			 period at the end;</text>
+				</paragraph><paragraph id="H3B9566F91B1D42F99D1DB8FE662050BD"><enum>(2)</enum><text>in subsection
+			 (b)(2), by inserting after <quote>section</quote> the following: <quote>, and a
+			 labor organization serving as the authorized representative under subsection
+			 (c)(1),</quote>;</text>
+				</paragraph><paragraph id="H450E75730706405382889F0114141250"><enum>(3)</enum><text>in subsection (f),
+			 by striking <quote>(f)</quote> and all that follows through paragraph (2) and
+			 inserting the following:</text>
+					<quoted-block display-inline="no-display-inline" id="H7023F346EB6C4C9EBD763283EFAB3799" style="OLC">
+						<subsection id="H6E2B6FF630984715A0847CAB10DE6B21"><enum>(f)</enum><paragraph commented="no" display-inline="yes-display-inline" id="H0564817D06924136A08926510BC0B8E1"><enum>(1)</enum><text>If a trustee seeks
+				modification of retiree benefits, then the trustee shall provide a notice to
+				the authorized representative that modifications are being proposed pursuant to
+				this section, and shall promptly provide an initial proposal. Thereafter, the
+				trustee shall confer in good faith with the authorized representative at
+				reasonable times and for a reasonable period in light of the complexity of the
+				case in attempting to reach mutually satisfactory modifications.</text>
+							</paragraph><paragraph id="H552FFA7F9417494EB6D799EDFFC963A7" indent="up1"><enum>(2)</enum><text display-inline="yes-display-inline">The initial proposal and subsequent
+				proposals by the trustee shall be based upon a business plan for the
+				reorganization of the debtor and shall reflect the most complete and reliable
+				information available. The trustee shall provide to the authorized
+				representative all information that is relevant for the negotiations. The court
+				may enter a protective order to prevent the disclosure of information if
+				disclosure could compromise the debtor’s position with respect to its
+				competitors in the industry, subject to the needs of the authorized
+				representative to evaluate the trustee’s proposals and an application pursuant
+				to subsection (g) or (h).</text>
+							</paragraph><paragraph id="H8472DF47099E47FEB3D53CF41AD75C1D" indent="up1"><enum>(3)</enum><text>Modifications proposed by the
+				trustee—</text>
+								<subparagraph id="HA8037E10B2CB4D61972893C6304B6006"><enum>(A)</enum><text>shall be proposed only as part of a
+				program of workforce and nonworkforce cost savings devised for the
+				reorganization of the debtor, including savings in management personnel
+				costs;</text>
+								</subparagraph><subparagraph id="H87BB0CF9E2C54496ABF373C23954E2F9"><enum>(B)</enum><text display-inline="yes-display-inline">shall be limited to modifications that are
+				designed to achieve a specified aggregate financial contribution for the
+				retiree group represented by the authorized representative (taking into
+				consideration any cost savings implemented within the 12-month period before
+				the date of filing of the petition with respect to the retiree group), and
+				shall be no more than the minimum savings essential to permit the debtor to
+				exit bankruptcy, such that confirmation of a plan of reorganization is not
+				likely to be followed by the liquidation, or the need for further financial
+				reorganization, of the debtor (or any successor to the debtor) in the short
+				term; and</text>
+								</subparagraph><subparagraph id="HB71834B530734CBB96DE7F919BA08E47"><enum>(C)</enum><text>shall not be disproportionate or
+				overly burden the retiree group, either in the amount of the cost savings
+				sought from such group or the nature of the
+				modifications.</text>
+								</subparagraph></paragraph></subsection><after-quoted-block>;</after-quoted-block></quoted-block>
+				</paragraph><paragraph id="HE3739FDCE4854B7D8B72557CEFD2E761"><enum>(4)</enum><text display-inline="yes-display-inline">in subsection (g)—</text>
+					<subparagraph id="H17EE775EBD2641AE8C355BB3EF6E2AA9"><enum>(A)</enum><text display-inline="yes-display-inline">by striking <quote>(g)</quote> and all that
+			 follows through the semicolon at the end of paragraph (3) and inserting the
+			 following:</text>
+						<quoted-block display-inline="no-display-inline" id="H532600338C9841FEACF15A1A1A074189" style="OLC">
+							<subsection id="HD3BC2DCFE37E489F9B206F41E2B57337"><enum>(g)</enum><paragraph commented="no" display-inline="yes-display-inline" id="HA6CBAC287D554DE884C00CA8E3E89128"><enum>(1)</enum><text display-inline="yes-display-inline">If, after a period of negotiations, the
+				trustee and the authorized representative have not reached agreement over
+				mutually satisfactory modifications and further negotiations are not likely to
+				produce mutually satisfactory modifications, then the trustee may file a motion
+				seeking modifications in the payment of retiree benefits after notice and a
+				hearing. Absent agreement of the parties, no such hearing shall be held before
+				the expiration of the 21-day period beginning on the date on which notice of
+				the hearing is provided to the authorized representative. Only the debtor and
+				the authorized representative may appear and be heard at such hearing.</text>
+								</paragraph><paragraph id="HF6C30569830C44CD8098D53AF1D4DB20" indent="up1"><enum>(2)</enum><text>The court may grant a motion to
+				modify the payment of retiree benefits only if, based on clear and convincing
+				evidence—</text>
+									<subparagraph id="H79BDB45D8AB04CA49CA80A955676E1DE"><enum>(A)</enum><text>the court finds that the trustee has
+				complied with the requirements of subsection (f);</text>
+									</subparagraph><subparagraph id="H17D9633A5A8B40BE9A7022857A2553B2"><enum>(B)</enum><text>the court has considered alternative
+				proposals by the authorized representative and has determined that such
+				proposals do not meet the requirements of subsection (f)(3)(B);</text>
+									</subparagraph><subparagraph id="HCFED6EEB87DA46928101227781AB05CA"><enum>(C)</enum><text>the court finds that further
+				negotiations regarding the trustee’s proposal or an alternative proposal by the
+				authorized representative are not likely to produce a mutually satisfactory
+				agreement;</text>
+									</subparagraph><subparagraph id="H6FEED7650099474187EEC905D67D00C9"><enum>(D)</enum><text display-inline="yes-display-inline">the court finds that implementation of the
+				proposal shall not cause irreparable harm to the affected retirees; and</text>
+									</subparagraph><subparagraph id="H89F836BC99124584B6FA610BD515AA32"><enum>(E)</enum><text display-inline="yes-display-inline">the court concludes that an order granting
+				the motion and immediate implementation of the trustee’s proposal is essential
+				to permit the debtor to exit bankruptcy, such that confirmation of a plan of
+				reorganization is not likely to be followed by liquidation, or the need for
+				further financial reorganization, of the debtor (or a successor to the debtor)
+				in the short term.</text>
+									</subparagraph></paragraph><paragraph id="HE4244CAFA7EC496CA547FF29398EA3AB" indent="up1"><enum>(3)</enum><text>If a trustee has implemented a
+				program of incentive pay, bonuses, or other financial returns for insiders,
+				senior executive officers, or the 20 next most highly compensated employees or
+				consultants providing services to the debtor during the bankruptcy, or such a
+				program was implemented within 180 days before the date of the filing of the
+				petition, the court shall presume that the trustee has failed to satisfy the
+				requirements of subparagraph (f)(3)(C).</text>
+								</paragraph></subsection><after-quoted-block>;
+				and</after-quoted-block></quoted-block>
+					</subparagraph><subparagraph id="HBA0146C2460E4CB8A743D939C6E6A914"><enum>(B)</enum><text>by striking
+			 “except that in no case” and inserting the following:</text>
+						<quoted-block display-inline="no-display-inline" id="H61461C420B2C497F9989EA97C1C72EDD" style="OLC">
+							<paragraph id="H4CE61C31056547F69289A1820D612F4E" indent="up1"><enum>(4)</enum><text>In no
+				case</text>
+							</paragraph><after-quoted-block>;
+				and</after-quoted-block></quoted-block>
+					</subparagraph></paragraph><paragraph id="H59BAAE64138B417C8BFA4069F976661D"><enum>(5)</enum><text>by striking
+			 subsection (k) and redesignating subsections (l) and (m) as subsections (k) and
+			 (l), respectively.</text>
+				</paragraph></section><section id="H4B2049F49F894EE3B58A85AFCFFAF339"><enum>203.</enum><header>Protection of
+			 employee benefits in a sale of assets</header><text display-inline="no-display-inline">Section 363(b) of title 11, United States
+			 Code, is amended by adding at the end the following:</text>
+				<quoted-block display-inline="no-display-inline" id="HC9BEE59145BC4494A3945C336DA59425" style="OLC">
+					<paragraph id="H3842CCF5FC6E415AB79550E84989AD68" indent="up1"><enum>(3)</enum><text display-inline="yes-display-inline">In approving a sale under this subsection,
+				the court shall consider the extent to which a bidder has offered to maintain
+				existing jobs, preserve terms and conditions of employment, and assume or match
+				pension and retiree health benefit obligations in determining whether an offer
+				constitutes the highest or best offer for such
+				property.</text>
+					</paragraph><after-quoted-block>.</after-quoted-block></quoted-block>
+			</section><section id="H31BF051FB30C435F978023FA38840FE6"><enum>204.</enum><header>Claim for
+			 pension losses</header><text display-inline="no-display-inline">Section 502 of
+			 title 11, United States Code, is amended by adding at the end the
+			 following:</text>
+				<quoted-block display-inline="no-display-inline" id="H6EB6A4B2370F4E2484E05F64E5230D9F" style="OLC">
+					<subsection id="H4BAD23A70DA647E8AC9B64A363939407"><enum>(l)</enum><text>The court shall
+				allow a claim asserted by an active or retired participant, or by a labor
+				organization representing such participants, in a defined benefit plan
+				terminated under section 4041 or 4042 of the Employee Retirement Income
+				Security Act of 1974, for any shortfall in pension benefits accrued as of the
+				effective date of the termination of such pension plan as a result of the
+				termination of the plan and limitations upon the payment of benefits imposed
+				pursuant to section 4022 of such Act, notwithstanding any claim asserted and
+				collected by the Pension Benefit Guaranty Corporation with respect to such
+				termination.</text>
+					</subsection><subsection id="H4A87555A546C44489A0A8772B1CD15F8"><enum>(m)</enum><text>The court shall
+				allow a claim of a kind described in section 101(5)(C) by an active or retired
+				participant in a defined contribution plan (within the meaning of section 3(34)
+				of the Employee Retirement Income Security Act of 1974 (29 U.S.C. 1002(34))),
+				or by a labor organization representing such participants. The amount of such
+				claim shall be measured by the market value of the stock at the time of
+				contribution to, or purchase by, the plan and the value as of the commencement
+				of the
+				case.</text>
+					</subsection><after-quoted-block>.</after-quoted-block></quoted-block>
+			</section><section commented="no" id="H6408C93BD900445E9978CD8F016BDB59"><enum>205.</enum><header>Payments by
+			 secured lender</header><text display-inline="no-display-inline">Section 506(c)
+			 of title 11, United States Code, is amended by adding at the end the following:
+			 <quote>If employees have not received wages, accrued vacation, severance, or
+			 other benefits owed under the policies and practices of the debtor, or pursuant
+			 to the terms of a collective bargaining agreement, for services rendered on and
+			 after the date of the commencement of the case, then such unpaid obligations
+			 shall be deemed necessary costs and expenses of preserving, or disposing of,
+			 property securing an allowed secured claim and shall be recovered even if the
+			 trustee has otherwise waived the provisions of this subsection under an
+			 agreement with the holder of the allowed secured claim or a successor or
+			 predecessor in interest.</quote>.</text>
+			</section><section id="H79743A81EC974BC4AB07FB1A73A741D2"><enum>206.</enum><header>Preservation of
+			 jobs and benefits</header><text display-inline="no-display-inline">Title 11,
+			 United States Code, is amended—</text>
+				<paragraph id="HB7F22FE231BB4F4DACC0D446150B65FD"><enum>(1)</enum><text>by inserting
+			 before section 1101 the following:</text>
+					<quoted-block display-inline="no-display-inline" id="HC360A6E5CECF41EDB2D42E1259BA3D46" style="OLC">
+						<section id="H15069005216C429AB4B35912E57C844E"><enum>1100.</enum><header>Statement of
+				purpose</header><text display-inline="no-display-inline">A debtor commencing a
+				case under this chapter shall have as its principal purpose the reorganization
+				of its business to preserve going concern value to the maximum extent possible
+				through the productive use of its assets and the preservation of jobs that will
+				sustain productive economic
+				activity.</text>
+						</section><after-quoted-block>;</after-quoted-block></quoted-block>
+				</paragraph><paragraph id="H07280E1C6A754FA8B5C54A4C42B23B9C"><enum>(2)</enum><text>in section
+			 1129(a), as amended by section 104, by adding at the end the following:</text>
+					<quoted-block display-inline="no-display-inline" id="H2DF06E0EE09142DE8054B3AD3E874CA2" style="OLC">
+						<paragraph id="HB3918069D66B446BB47B04BAE4928F1C"><enum>(18)</enum><text display-inline="yes-display-inline">The debtor has demonstrated that the
+				reorganization preserves going concern value to the maximum extent possible
+				through the productive use of the debtor’s assets and preserves jobs that
+				sustain productive economic activity.</text>
+						</paragraph><after-quoted-block>;
+				</after-quoted-block></quoted-block>
+				</paragraph><paragraph id="HEFD6069D98FD4DDAA405447DCF3F0E40"><enum>(3)</enum><text display-inline="yes-display-inline">in section 1129(c), by striking the last
+			 sentence and inserting the following: “If the requirements of subsections (a)
+			 and (b) are met with respect to more than 1 plan, the court shall, in
+			 determining which plan to confirm—</text>
+					<quoted-block display-inline="no-display-inline" id="H36BEEEBDCAEB4FD7ACA75247454494E6" style="OLC">
+						<paragraph id="HCEB86C8493444C458F90FDB3C7C37BAE"><enum>(1)</enum><text>consider the
+				extent to which each plan would preserve going concern value through the
+				productive use of the debtor’s assets and the preservation of jobs that sustain
+				productive economic activity; and</text>
+						</paragraph><paragraph id="H97C9881A9E474113A85288A7CB016280"><enum>(2)</enum><text>confirm the plan
+				that better serves such interests.</text>
+						</paragraph><quoted-block-continuation-text quoted-block-continuation-text-level="subsection">A plan
+				that incorporates the terms of a settlement with a labor organization
+				representing employees of the debtor shall presumptively constitute the plan
+				that satisfies this subsection.</quoted-block-continuation-text><after-quoted-block>;
+				and</after-quoted-block></quoted-block>
+				</paragraph><paragraph id="HCA080980CA694C27A43A783D1140310D"><enum>(4)</enum><text>in the table of
+			 sections for chapter 11, by inserting the following before the item relating to
+			 section 1101:</text>
+					<quoted-block id="H3E9FA6CE6CD145288ECBC86D7928B408" style="USC">
+						<toc regeneration="no-regeneration">
+							<toc-entry level="section">1100. Statement of
+				purpose.</toc-entry>
+						</toc>
+						<after-quoted-block>.</after-quoted-block></quoted-block>
+				</paragraph></section><section id="HE34CD560BBCB474F8BB2EF919E7CC2D3"><enum>207.</enum><header>Termination of
+			 exclusivity</header><text display-inline="no-display-inline">Section 1121(d) of
+			 title 11, United States Code, is amended by adding at the end the
+			 following:</text>
+				<quoted-block display-inline="no-display-inline" id="H481854E366AE48AD91F536E5A92A77DB" style="traditional">
+					<paragraph id="H31BEFDC8D61D4204B0BAEBA5E43FD0FD" indent="up1"><enum>(3)</enum><text display-inline="yes-display-inline">For purposes of this subsection, cause for
+				reducing the 120-day period or the 180-day period includes the
+				following:</text>
+						<subparagraph id="HD0822424F66F4211B6128C641D7F41B3"><enum>(A)</enum><text>The filing of a motion pursuant to
+				section 1113 seeking rejection of a collective bargaining agreement if a plan
+				based upon an alternative proposal by the labor organization is reasonably
+				likely to be confirmed within a reasonable time.</text>
+						</subparagraph><subparagraph id="H667FA539EA474597BF3553177C4E0694"><enum>(B)</enum><text>The proposed filing of a plan by a
+				proponent other than the debtor, which incorporates the terms of a settlement
+				with a labor organization if such plan is reasonably likely to be confirmed
+				within a reasonable
+				time.</text>
+						</subparagraph></paragraph><after-quoted-block>.</after-quoted-block></quoted-block>
+			</section></title><title id="H0A056D7441E64BDFA241333B9C8421D9"><enum>III</enum><header>Restricting
+			 Executive Compensation Programs</header>
+			<section id="HA870A531BAA04F00B70CE0450D352BC7"><enum>301.</enum><header>Executive
+			 compensation upon exit from bankruptcy</header><text display-inline="no-display-inline">Section 1129(a) of title 11, United States
+			 Code, is amended—</text>
+				<paragraph id="HA2A78D9F12D5481F835E1584796AEC50"><enum>(1)</enum><text>in paragraph (4),
+			 by adding at the end the following: “Except for compensation subject to review
+			 under paragraph (5), payments or other distributions under the plan to or for
+			 the benefit of insiders, senior executive officers, and any of the 20 next most
+			 highly compensated employees or consultants providing services to the debtor,
+			 shall not be approved except as part of a program of payments or distributions
+			 generally applicable to employees of the debtor, and only to the extent that
+			 the court determines that such payments are not excessive or disproportionate
+			 compared to distributions to the debtor’s nonmanagement workforce.”; and</text>
+				</paragraph><paragraph id="H6A6D090D067E41399D86800F6E42C371"><enum>(2)</enum><text>in paragraph
+			 (5)—</text>
+					<subparagraph id="H175BE647D89D40D082867DE89C42D371"><enum>(A)</enum><text>in subparagraph
+			 (A)(ii), by striking <quote>and</quote> at the end; and</text>
+					</subparagraph><subparagraph id="HE8ECCD74F60841C19348F388AE335579"><enum>(B)</enum><text>in subparagraph
+			 (B), by striking the period at the end and inserting the following: “;
+			 and</text>
+						<quoted-block id="H5E2A80D4178B4B2881985BF4902EDC6F" style="OLC">
+							<subparagraph id="H8EF06B94BB284584980E4C8FE82E3FE9"><enum>(C)</enum><text>the compensation
+				disclosed pursuant to subparagraph (B) has been approved by, or is subject to
+				the approval of, the court as reasonable when compared to individuals holding
+				comparable positions at comparable companies in the same industry and not
+				disproportionate in light of economic concessions by the debtor’s nonmanagement
+				workforce during the
+				case.</text>
+							</subparagraph><after-quoted-block>.</after-quoted-block></quoted-block>
+					</subparagraph></paragraph></section><section id="H1A0144A69F914A6780A222DE7887A71F"><enum>302.</enum><header>Limitations on
+			 executive compensation enhancements</header><text display-inline="no-display-inline">Section 503(c) of title 11, United States
+			 Code, is amended—</text>
+				<paragraph id="H09F4C6A980CF4CE0863B52B6CB58BC96"><enum>(1)</enum><text>in paragraph
+			 (1)—</text>
+					<subparagraph id="H5FD3C4762AEC43A7A092B13929284727"><enum>(A)</enum><text>by inserting
+			 <quote>, a senior executive officer, or any of the 20 next most highly
+			 compensated employees or consultants</quote> after <quote>an
+			 insider</quote>;</text>
+					</subparagraph><subparagraph id="H98B20300184B45D88A23B38C89206750"><enum>(B)</enum><text>by inserting
+			 <quote>or for the payment of performance or incentive compensation, or a bonus
+			 of any kind, or other financial returns designed to replace or enhance
+			 incentive, stock, or other compensation in effect before the date of the
+			 commencement of the case,</quote> after <quote>remain with the debtor’s
+			 business,</quote>; and</text>
+					</subparagraph><subparagraph id="H525A7DF110C948B1AEAD65C6246F5FE3"><enum>(C)</enum><text>by inserting
+			 “clear and convincing” before “evidence in the record”; and</text>
+					</subparagraph></paragraph><paragraph id="H7795953951664C2C9E242DFC1D413D62"><enum>(2)</enum><text>by amending
+			 paragraph (3) to read as follows:</text>
+					<quoted-block id="H305C58EAD1954843A73EF525C4F780C0" style="OLC">
+						<paragraph id="H842B1B50F2774C00B99B546662B4465C"><enum>(3)</enum><text>other transfers or
+				obligations, to or for the benefit of insiders, senior executive officers,
+				managers, or consultants providing services to the debtor, in the absence of a
+				finding by the court, based upon clear and convincing evidence, and without
+				deference to the debtor’s request for such payments, that such transfers or
+				obligations are essential to the survival of the debtor’s business or (in the
+				case of a liquidation of some or all of the debtor’s assets) essential to the
+				orderly liquidation and maximization of value of the assets of the debtor, in
+				either case, because of the essential nature of the services provided, and then
+				only to the extent that the court finds such transfers or obligations are
+				reasonable compared to individuals holding comparable positions at comparable
+				companies in the same industry and not disproportionate in light of economic
+				concessions by the debtor’s nonmanagement workforce during the
+				case.</text>
+						</paragraph><after-quoted-block>.</after-quoted-block></quoted-block>
+				</paragraph></section><section id="HF2B2D7E469EC42968ED0A3AB983E5445"><enum>303.</enum><header>Assumption of
+			 executive benefit plans</header><text display-inline="no-display-inline">Section 365 of title 11, United States Code,
+			 is amended—</text>
+				<paragraph id="HA07DA15023E44EEBA4EE3F02FD94E774"><enum>(1)</enum><text>in subsection (a),
+			 by striking <quote>and (d)</quote> and inserting <quote>(d), (q), and
+			 (r)</quote>; and</text>
+				</paragraph><paragraph id="H1F9B0028D4FF4997A6C7EF6DBDEE96F2"><enum>(2)</enum><text>by adding at the
+			 end the following:</text>
+					<quoted-block display-inline="no-display-inline" id="H9D71784B15424C6F801D24D31B837CE2" style="OLC">
+						<subsection id="H84729E5B06B140A09185CDD7CD142F62"><enum>(q)</enum><text display-inline="yes-display-inline">No deferred compensation arrangement for
+				the benefit of insiders, senior executive officers, or any of the 20 next most
+				highly compensated employees of the debtor shall be assumed if a defined
+				benefit plan for employees of the debtor has been terminated pursuant to
+				section 4041 or 4042 of the Employee Retirement Income Security Act of 1974, on
+				or after the date of the commencement of the case or within 180 days before the
+				date of the commencement of the case.</text>
+						</subsection><subsection id="HC6D783BF12FD47D18815C083B96DC518"><enum>(r)</enum><text>No plan, fund,
+				program, or contract to provide retiree benefits for insiders, senior executive
+				officers, or any of the 20 next most highly compensated employees of the debtor
+				shall be assumed if the debtor has obtained relief under subsection (g) or (h)
+				of section 1114 to impose reductions in retiree benefits or under subsection
+				(d) or (e) of section 1113 to impose reductions in the health benefits of
+				active employees of the debtor, or reduced or eliminated health benefits for
+				active or retired employees within 180 days before the date of the commencement
+				of the
+				case.</text>
+						</subsection><after-quoted-block>.</after-quoted-block></quoted-block>
+				</paragraph></section><section id="H1AA8E38A586A450897C615893F11CF4A"><enum>304.</enum><header>Recovery of
+			 executive compensation</header><text display-inline="no-display-inline">Title
+			 11, United States Code, is amended by inserting after section 562 the
+			 following:</text>
+				<quoted-block display-inline="no-display-inline" id="H8A37BB007B0045CD8DE5DAB431F72D54" style="OLC">
+					<section id="HB7CB84E218014603AD2E6C4CFFE3290F"><enum>563.</enum><header>Recovery of
+				executive compensation</header>
+						<subsection id="H9B1637FD428146BFBEF548A79ED0FD1C"><enum>(a)</enum><text>If a debtor has
+				obtained relief under subsection (d) of section 1113, or subsection (g) of
+				section 1114, by which the debtor reduces the cost of its obligations under a
+				collective bargaining agreement or a plan, fund, or program for retiree
+				benefits as defined in section 1114(a), the court, in granting relief, shall
+				determine the percentage diminution in the value of the obligations when
+				compared to the debtor’s obligations under the collective bargaining agreement,
+				or with respect to retiree benefits, as of the date of the commencement of the
+				case under this title before granting such relief. In making its determination,
+				the court shall include reductions in benefits, if any, as a result of the
+				termination pursuant to section 4041 or 4042 of the Employee Retirement Income
+				Security Act of 1974, of a defined benefit plan administered by the debtor, or
+				for which the debtor is a contributing employer, effective at any time on or
+				after 180 days before the date of the commencement of a case under this title.
+				The court shall not take into account pension benefits paid or payable under
+				such Act as a result of any such termination.</text>
+						</subsection><subsection id="H6830233BE0DA45B5B3B99793E84ABC0F"><enum>(b)</enum><text>If a defined
+				benefit pension plan administered by the debtor, or for which the debtor is a
+				contributing employer, has been terminated pursuant to section 4041 or 4042 of
+				the Employee Retirement Income Security Act of 1974, effective at any time on
+				or after 180 days before the date of the commencement of a case under this
+				title, but a debtor has not obtained relief under subsection (d) of section
+				1113, or subsection (g) of section 1114, then the court, upon motion of a party
+				in interest, shall determine the percentage diminution in the value of benefit
+				obligations when compared to the total benefit liabilities before such
+				termination. The court shall not take into account pension benefits paid or
+				payable under title IV of the Employee Retirement Income Security Act of 1974
+				as a result of any such termination.</text>
+						</subsection><subsection id="H87264B75F710442688287DBA9378AEAB"><enum>(c)</enum><text>Upon the
+				determination of the percentage diminution in value under subsection (a) or
+				(b), the estate shall have a claim for the return of the same percentage of the
+				compensation paid, directly or indirectly (including any transfer to a
+				self-settled trust or similar device, or to a nonqualified deferred
+				compensation plan under section 409A(d)(1) of the Internal Revenue Code of
+				1986) to any officer of the debtor serving as member of the board of directors
+				of the debtor within the year before the date of the commencement of the case,
+				and any individual serving as chairman or lead director of the board of
+				directors at the time of the granting of relief under section 1113 or 1114 or,
+				if no such relief has been granted, the termination of the defined benefit
+				plan.</text>
+						</subsection><subsection id="HDA7F0411196744B28863CF993CEF6FBE"><enum>(d)</enum><text>The trustee or a
+				committee appointed pursuant to section 1102 may commence an action to recover
+				such claims, except that if neither the trustee nor such committee commences an
+				action to recover such claim by the first date set for the hearing on the
+				confirmation of plan under section 1129, any party in interest may apply to the
+				court for authority to recover such claim for the benefit of the estate. The
+				costs of recovery shall be borne by the estate.</text>
+						</subsection><subsection id="HFC3C4EADB43A4FDEBB2D3E68D454375B"><enum>(e)</enum><text>The court shall
+				not award postpetition compensation under section 503(c) or otherwise to any
+				person subject to subsection (c) if there is a reasonable likelihood that such
+				compensation is intended to reimburse or replace compensation recovered by the
+				estate under this
+				section.</text>
+						</subsection></section><after-quoted-block>.</after-quoted-block></quoted-block>
+			</section><section id="HF05EE9D1CFAE4BFCBB2794BCA5666BB1"><enum>305.</enum><header>Preferential
+			 compensation transfer</header><text display-inline="no-display-inline">Section
+			 547 of title 11, United States Code, is amended by adding at the end the
+			 following:</text>
+				<quoted-block display-inline="no-display-inline" id="H6A3EAC8B22834E0AA5E6B2FE0C1920F0" style="USC">
+					<subsection id="H192AEFD1D70943F4B81D5E8DED3AAF88"><enum>(j)</enum><text display-inline="yes-display-inline">The trustee may avoid a transfer to or for
+				the benefit of an insider (including an obligation incurred for the benefit of
+				an insider under an employment contract) made in anticipation of bankruptcy, or
+				a transfer made in anticipation of bankruptcy to a consultant who is formerly
+				an insider and who is retained to provide services to an entity that becomes a
+				debtor (including an obligation under a contract to provide services to such
+				entity or to a debtor) made or incurred on or within 1 year before the filing
+				of the petition. No provision of subsection (c) shall constitute a defense
+				against the recovery of such transfer. The trustee or a committee appointed
+				pursuant to section 1102 may commence an action to recover such transfer,
+				except that, if neither the trustee nor such committee commences an action to
+				recover such transfer by the time of the commencement of a hearing on the
+				confirmation of a plan under section 1129, any party in interest may apply to
+				the court for authority to recover the claims for the benefit of the estate.
+				The costs of recovery shall be borne by the
+				estate.</text>
+					</subsection><after-quoted-block>.</after-quoted-block></quoted-block>
+			</section></title><title id="HDEB6EF4CCE8F4290A842E7D31C673598"><enum>IV</enum><header>Other
+			 Provisions</header>
+			<section id="H41C448AA1DA846AE998FC3049C1418A7"><enum>401.</enum><header>Union proof of
+			 claim</header><text display-inline="no-display-inline">Section 501(a) of title
+			 11, United States Code, is amended by inserting <quote>, including a labor
+			 organization,</quote> after <quote>A creditor</quote>.</text>
+			</section><section commented="no" id="HD48F06E3CF664B41985E5199FA975728"><enum>402.</enum><header>Exception from
+			 automatic stay</header><text display-inline="no-display-inline">Section 362(b)
+			 of title 11, United States Code, is amended—</text>
+				<paragraph commented="no" id="HCB29DF56D49E427696D60B7BF133FF1C"><enum>(1)</enum><text>in paragraph (27),
+			 by striking <quote>and</quote> at the end;</text>
+				</paragraph><paragraph commented="no" id="HC066BF4B53A24D329263BCCD43C335FE"><enum>(2)</enum><text>in paragraph (28),
+			 by striking the period at the end and inserting <quote>; and</quote>;
+			 and</text>
+				</paragraph><paragraph commented="no" id="HD5D76CDD8D2C4432818F94625280089B"><enum>(3)</enum><text display-inline="yes-display-inline">by adding at the end the following:</text>
+					<quoted-block display-inline="no-display-inline" id="H9EB1A57433B24551971F970DB8B17A02" style="OLC">
+						<paragraph commented="no" id="HABD6F8DD6051481F94A23E97CD47F533"><enum>(29)</enum><text display-inline="yes-display-inline">of the commencement or continuation of a
+				grievance, arbitration, or similar dispute resolution proceeding established by
+				a collective bargaining agreement that was or could have been commenced against
+				the debtor before the filing of a case under this title, or the payment or
+				enforcement of an award or settlement under such
+				proceeding.</text>
+						</paragraph><after-quoted-block>.</after-quoted-block></quoted-block>
+				</paragraph></section></title></legis-body>
+</bill>
